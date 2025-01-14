@@ -41,7 +41,7 @@ nav ul{
 }
 
 nav h1 {
-    font-size: 32;
+    font-size: 32px;
     font-weight: bold;
     width: 222px;
     
@@ -78,7 +78,7 @@ nav .signIn-btn{
 
 .banner-texts .mini-title{
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 500;
     color: rgba(14,14,14,50%);
 }
 
