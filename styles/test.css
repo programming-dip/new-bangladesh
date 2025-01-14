@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 31px;
+    margin-bottom: 51px;
+    padding: 0 160px; /* Add padding for consistent spacing */
+}
+
+nav ul {
+    list-style: none; /* Remove default bullets */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Place items at opposite ends */
+    align-items: center; /* Align items vertically */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Ensure the list spans the full width */
+}
+
+nav h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0; /* Remove any extra margin */
+}
+
+nav .signIn-btn {
+    width: 116px;
+    height: 52px;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
