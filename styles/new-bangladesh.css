@@ -253,3 +253,68 @@ nav .signIn-btn{
     transform: scale(1.02);
 }
 
+
+
+/* quote section */
+.quotes {
+    margin-top: 32px;
+    
+}
+
+.quotes .quotes-container{
+    
+    border-radius: 16px;
+    border: 1px solid rgba(14,14,14,10%);
+    box-shadow: 5% 5% 15px rgba(14, 14, 14, 15%);
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: url(..//assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 20% left 1.6%;
+    background-color: white;
+    
+
+}
+
+
+
+.quotes .section-description{
+    padding-bottom: 12px;
+    
+}
+
+.quotes .quoter{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.quotes .quoter-pos{
+    color: rgba(14,14,14,60%);
+}
+
+
+/* opinion section */
+
+.opinion table {
+    border-collapse: separate; 
+    border-spacing: 0;
+    width: 100%;
+}
+
+.opinion table td {
+    border: 1px solid rgba(14,14,14,10%);
+}
+
+.opinion table th{
+    border-bottom: 4px rgba(14,14,14,10%);
+}
+
+.opinion #headings p{
+   display: inline;
+    
+}
