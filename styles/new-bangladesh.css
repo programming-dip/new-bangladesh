@@ -187,6 +187,7 @@ nav .signIn-btn{
     height: 265px;
     border-radius: 16px;
     
+    
 
 }
 
@@ -207,6 +208,7 @@ nav .signIn-btn{
 .vision-card-container button{
     width: 122px;
     height: 41px;
+    
     margin-bottom: 25px;
 }
 
@@ -229,6 +231,7 @@ nav .signIn-btn{
 
 .vision-card-container #greenish button {
     background-color: #09A15C;
+    margin-top:0px;
 }
 .vision-card-container #greenish button:hover {
     box-shadow: 5px 5px 10px rgba(9,161,92,50%);
@@ -306,15 +309,66 @@ nav .signIn-btn{
     width: 100%;
 }
 
+.opinion-table tr {
+    width: 100%;
+    height: 92px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
 .opinion table td {
-    border: 1px solid rgba(14,14,14,10%);
+    border: 1px solid rgba(14,14,14,10%);   
 }
 
 .opinion table th{
     border-bottom: 4px rgba(14,14,14,10%);
 }
 
-.opinion #headings p{
-   display: inline;
+
+.opinion-table .heading-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    
+    
     
 }
+
+.opinion-table #firstRow {
+    width: 100%;
+    height: 72px;
+    background-color: #C6E4D6;
+}
+
+.opinion-table .col1 {
+    padding-left: 2%;
+}
+
+.opinion-table .col2 {
+    text-align: center;
+    
+}
+
+.opinion-table select, .opinion-table option {
+    background-color: #C6E4D6;
+    width: 80%;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.opinion .opinion-table {
+    margin-top: 24px;
+    background-color: white;
+    padding: 2%;
+    border-radius: 16px;
+    
+}
+
+
