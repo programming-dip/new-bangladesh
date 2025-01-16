@@ -567,11 +567,49 @@ nav .signIn-btn{
 
 /* Footer Section */
 
-.footer .footer-content{
+footer{
     background-color: white;
+    
+    margin-left: calc(-12.53%);
+    margin-right: calc(-12.53%);
+    /* margin-left: calc(-14%); */
+    /* width: 100.32vw; */
+    
+}
+
+footer .footer-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-top: 32px;
 }
 
 
+footer hr {
+    
+    border:1px solid rgba(14, 14, 14, 10%);
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 32px;
+    
+}
+
+footer .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    
+   
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 50px;
+}
 
 
 
