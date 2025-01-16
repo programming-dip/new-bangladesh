@@ -477,6 +477,10 @@ nav .signIn-btn{
     font-weight: bold;
 }
 
+.donation #selected-card {
+    background-color: #C6E4D6;
+}
+
 .donation .amount-card:hover {
     background-color: #C6E4D6;
     box-shadow: 5px 5px 10px #09A15C;
